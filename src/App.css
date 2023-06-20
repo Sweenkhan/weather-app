@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../image/newBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 390px;
+    width: 500px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius:  20px;
+     
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search, .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid ; */
+    width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 80px;
+    border-radius:  19px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+    width: 80%;
+    height: 30px;
+    font-size: 1.3rem;
+    border-radius: 1.5rem;
+    padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+    margin-top: 10px;
+    height: 28px;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 1.2rem;
 }
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.result {
+    margin-top: 15px;
+    height: 300px;
+    color: white;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+ 
