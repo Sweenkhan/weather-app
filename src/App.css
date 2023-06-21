@@ -10,7 +10,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../image/newBg.png");
+    background-image: url("./images/newBg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -48,11 +48,11 @@ body{
 }
 
 input {
-    width: 80%;
+    width: 60%;
     height: 30px;
     font-size: 1.3rem;
     border-radius: 1.5rem;
-    padding-left: 10px;
+    text-align: center;
 }
 
 button {
@@ -91,6 +91,8 @@ p {
     
     .container{
          
+        justify-content: space-between;
+        align-items: center;
         height: 390px;
         width: 300px; 
     }
@@ -99,5 +101,10 @@ p {
         margin-top: 15px;
         height: 260px;
         
+    }
+
+    input, button {
+        font-size: 1rem;
+        width: 70%;
     }
 }
