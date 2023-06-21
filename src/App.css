@@ -86,3 +86,18 @@ p {
     font-weight: 500;
 }
  
+
+@media screen and (max-width: 500px) {
+    
+    .container{
+         
+        height: 390px;
+        width: 300px; 
+    }
+
+    .result {
+        margin-top: 15px;
+        height: 260px;
+        
+    }
+}
