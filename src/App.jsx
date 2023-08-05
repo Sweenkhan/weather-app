@@ -32,20 +32,14 @@ function getData(){
     
 }
 
-
-function handleChange(e){
-    setCityName(e.target.value)
-}
-      
- 
-
+  
 
   return (
      <>  
        <div className='wrapper'> 
        <div className='container'> 
        <div className='search'> 
-        <input onChange={handleChange} value={cityName} placeholder='Enter your city name:'></input>
+        <input onChange={e=>setCityName(e.target.value)} value={cityName} placeholder='Enter your city name:'></input>
         <button onClick={getData}>Weather Report</button> 
         </div>
         <div className='result'> 

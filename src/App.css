@@ -89,8 +89,7 @@ p {
 
 @media screen and (max-width: 500px) {
     
-    .container{
-         
+    .container{ 
         justify-content: space-between;
         align-items: center;
         height: 390px;
@@ -99,8 +98,7 @@ p {
 
     .result {
         margin-top: 15px;
-        height: 260px;
-        
+        height: 260px; 
     }
 
     input, button {
